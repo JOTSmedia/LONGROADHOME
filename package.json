@@ -1,0 +1,1 @@
+{"name":"long-road-home-screening","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs"}}

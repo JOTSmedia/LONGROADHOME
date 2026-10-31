@@ -1,0 +1,2 @@
+import http from 'node:http';import worker from '../dist/server/index.js';
+http.createServer(async(req,res)=>{try{const body=[];for await(const part of req)body.push(part);const r=await worker.fetch(new Request('http://localhost:8766'+req.url,{method:req.method,headers:req.headers,...(['GET','HEAD'].includes(req.method)?{}:{body:Buffer.concat(body)})}),{SITE_PASSWORD:process.env.SITE_PASSWORD});res.writeHead(r.status,Object.fromEntries(r.headers));res.end(Buffer.from(await r.arrayBuffer()))}catch(e){res.writeHead(500);res.end('Preview error')}}).listen(8766);

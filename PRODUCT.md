@@ -1,0 +1,2 @@
+# LONG ROAD HOME
+Film showcase for invited viewers. Primary purpose: view the V2 trailer. Existing password is required, and all film assets remain protected. User requires major non-template 3D redesign, all visible text uppercase, no additional paid services. Actual film assets exist locally. Film combines road journey, memory, psychological mystery, dark humor and surreal encounters. Do not invent release, cast, awards or screening availability. Full feature playback is not requested; trailer remains the featured video.
